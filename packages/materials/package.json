@@ -2,8 +2,10 @@
   "name": "@Orchestra-AI/materials",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +15,11 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14"
+    "@types/react": "^19.2.14",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "immer": "^11.1.4",
+    "zustand": "^5.0.11"
   }
 }

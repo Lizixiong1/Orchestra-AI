@@ -3,9 +3,8 @@ import { BasicConfig } from "../typings";
 
 export interface Config extends BasicConfig {}
 
-const Page: FC<Config> = ({ id, title }) => {
-  // const store = useStore();
-  return <div>index</div>;
+const Layout: FC<Config> = () => {
+  return <div>Layout</div>;
 };
 
-export default Page;
+export default Layout;
